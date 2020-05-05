@@ -1,4 +1,3 @@
-/* For main bg */
 #wave {
 	color: #f6b683;
 	padding-top: calc((100% - 1100px) / 2);
@@ -10,7 +9,7 @@
 	top: 0;
 	width: 100%;
 }
-/* Main info */
+
 .name {
 	font-size: 2.5rem;
 	margin-bottom: 5px;
@@ -44,14 +43,14 @@ svg.title-icon {
 }
 .progres-bur {
 	height: 5px;
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0, 0, 0, 0.1);
 	margin-top: 6px !important;
 	position: relative;
 }
 .progres-bur-en:before {
 	content: "";
 	width: 75%;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -60,7 +59,7 @@ svg.title-icon {
 .progres-bur-uk:before {
 	content: "";
 	width: 100%;
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	top: 0;
 	left: 0;
